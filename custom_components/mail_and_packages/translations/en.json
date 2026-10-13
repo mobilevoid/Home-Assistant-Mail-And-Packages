@@ -3,7 +3,10 @@
     "abort": {
       "single_instance_allowed": "Only a single configuration of Mail and Packages is allowed.",
       "reconfigure_successful": "Reconfigure Successful",
-      "oauth_unauthorized": "OAuth unauthorized: access was denied or the authentication was cancelled."
+      "oauth_unauthorized": "OAuth unauthorized: access was denied or the authentication was cancelled.",
+      "already_configured": "The All mailboxes summary is already set up.",
+      "summary_needs_mailboxes": "The All mailboxes summary needs at least two mailboxes.",
+      "summary_not_configurable": "The All mailboxes summary has no settings; it follows your mailboxes automatically."
     },
     "error": {
       "cannot_connect": "Unable to connect or login to the mail server. Please check the log for details.",
@@ -205,8 +208,13 @@
           "password": "Password"
         },
         "title": "Re-authenticate Mail Server"
+      },
+      "summary_confirm": {
+        "title": "All mailboxes",
+        "description": "Combine your {count} Mail and Packages mailboxes into one set of totals. A package that appears in more than one mailbox (for example, a forwarded shipping email) is counted once, matched by its tracking number or Amazon order number. Mail without a tracking number, such as the USPS daily mail count, is added across mailboxes. Your mailbox sensors are not changed."
       }
-    }
+    },
+    "flow_title": "{name}"
   },
   "options": {
     "step": {
